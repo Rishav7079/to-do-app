@@ -1,0 +1,32 @@
+/* src/components/AddTodoForm.module.css */
+
+.form {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+  }
+  
+  .input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+    font-size: 16px;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+  }
+  
+  .button:hover {
+    background-color: #218838;
+  }
+  
